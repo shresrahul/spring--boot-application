@@ -1,0 +1,13 @@
+package com.example.demo.controlllers;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.example.demo.repositories.DepartmentRepository;
+
+@RestController
+public class DepartmentController {
+	@Autowired
+	private DepartmentRepository departmentRepository;
+
+}
